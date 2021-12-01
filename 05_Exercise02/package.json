@@ -1,0 +1,17 @@
+{
+  "name": "05_exercise02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "esbuild index.js --bundle  --outfile=bundle.js",
+    "buildw": "esbuild index.js --bundle  --outfile=bundle.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
